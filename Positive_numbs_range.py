@@ -4,6 +4,9 @@ for i in list1:
             print(i,  end=", ")
 print()        
 list2 = [12,14,-95,3]
+b=[]
 for j in list2:
     if j>0:
-        print([j],  end=", ")
+          b.append(j)
+print(b)
+        
